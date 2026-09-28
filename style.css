@@ -1,0 +1,87 @@
+*{
+margin: 0%; /* Serve para mexer no espaçamento externo */
+}
+#header{
+    background-color: #c39a1c;
+    height: 150px; /* Serve para mexer no fundo da cabeça do site e o height serve para mexer na altura*/
+    
+    
+
+
+
+}
+ /* Serve para mexer no corpo do site e o backgrpund color serve para mudar o fundo do corpo do site */
+a{
+background-color: #717679;
+padding: 1%; 
+border-radius: 25px;
+color: black;
+margin: 5%; /* O background muda o funda da caixa da âncora, o pdding mexe no espaçamento interno, o border radius deixa uma borda arredondada, o color coloca a cor do letramento e o margin muda o espaçamento externo*/
+}
+nav{
+margin-left: 25%;
+}   /*Nav serve para conter os links e o margin left serve para mexer no espaçamento da margem externa */
+#banner{
+width: 100%;
+height: 700px;
+background-color: #641e1e;
+background-image: url(./imagens/personagens-de-Harry-Potter.jpg);
+background-position: top;
+background-size: cover;
+}
+
+
+#paragrafo{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+text-align: center;
+padding: 50px;
+width: 500px;
+color: white;
+font-size: xx-large;
+} /*Font-family é a fonte da letra e o text align center centraliza o paragrafo*/
+
+img{
+    width: 200px;
+}
+.card{
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    background-color:#b48a0b;
+    margin: 15px;
+    display: inline-block;
+    color: black;
+    border-radius: 50px;
+    padding-top: 20px;
+}
+
+#Filmes{
+width: 100%;
+height: 400px;
+background-color: #641e1e;
+}
+
+.card-arcos{
+display: inline-block;
+width: 450px;
+height: 250px;
+background-color: #b48a0b;
+color: black;
+margin: 15px;
+border-radius: 30px;
+text-align: center;
+margin-left: 130px;
+padding-top: 20px;
+}
+footer{
+    padding-top: 20px;
+height: 90px;
+background-color: #717679;
+text-align: center;
+}
+body{
+background-color: #641e1e;
+}
+
+
+
