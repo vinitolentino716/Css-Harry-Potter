@@ -3,11 +3,13 @@ margin: 0%; /* Serve para mexer no espaçamento externo */
 }
 #header{
     background-color: #c39a1c;
-    height: 150px; /* Serve para mexer no fundo da cabeça do site e o height serve para mexer na altura*/
+    height: 150px; 
     
-    
-
-
+    /* Serve para mexer no fundo da cabeça do site e o height serve para mexer na altura*/
+}
+#imagem{
+margin-left: 40%;
+width: 300px;
 
 }
  /* Serve para mexer no corpo do site e o backgrpund color serve para mudar o fundo do corpo do site */
@@ -20,6 +22,10 @@ margin: 5%; /* O background muda o funda da caixa da âncora, o pdding mexe no e
 }
 nav{
 margin-left: 25%;
+margin-top: 1%;
+
+
+
 }   /*Nav serve para conter os links e o margin left serve para mexer no espaçamento da margem externa */
 #banner{
 width: 100%;
@@ -33,11 +39,13 @@ background-size: cover;
 
 #paragrafo{
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-text-align: center;
+text-align: left;
 padding: 50px;
 width: 500px;
 color: white;
-font-size: xx-large;
+font-size: small;
+margin-left: 58%;
+margin-top: -4%;
 } /*Font-family é a fonte da letra e o text align center centraliza o paragrafo*/
 
 img{
@@ -46,19 +54,23 @@ img{
 .card{
     text-align: center;
     width: 400px;
-    height: 250px;
+    height: 290px;
     background-color:#b48a0b;
     margin: 15px;
-    display: inline-block;
     color: black;
     border-radius: 50px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 #Filmes{
 width: 100%;
 height: 400px;
 background-color: #641e1e;
+
 }
 
 .card-arcos{
